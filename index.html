@@ -4,6 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="Catálogo de Artesano, chocolatería tradicional de Saravena, Arauca.">
+<link rel="icon" href="pag/p-1.jpg">
 <title>Catálogo Artesano Cacao</title>
 <style>
 /* Visor vertical del catálogo: una página cuadrada tras otra, centradas, sobre fondo cacao. */
@@ -17,7 +18,12 @@ header p { margin: 6px 0 0; color: var(--muted); font-size: 0.92rem; }
 .pages img { display: block; width: 100%; max-width: 100%; aspect-ratio: 1 / 1; border-radius: 10px; box-shadow: 0 6px 24px rgba(0,0,0,0.35); background: #E9E1DA; }
 footer { text-align: center; color: var(--muted); font-size: 0.9rem; margin-top: 24px; line-height: 1.7; }
 footer strong { color: var(--fg); font-weight: 600; }
+.ig { display: inline-block; margin-top: 14px; padding: 11px 22px; border-radius: 999px; background: var(--gold); color: #2A1A0E; font-weight: 600; text-decoration: none; }
+.ig:hover { filter: brightness(1.08); }
+.ig:focus-visible { outline: 2px solid var(--fg); outline-offset: 3px; }
+footer a.txt { color: var(--fg); font-weight: 600; }
 body{margin:0}
+header .ig{margin-inline:4px}
 </style>
 </head>
 <body>
@@ -26,6 +32,8 @@ body{margin:0}
   <header>
     <h1>Artesano</h1>
     <p>Chocolatería tradicional · Saravena, Arauca</p>
+    <a class="ig" href="https://www.instagram.com/artesano_cacao/" target="_blank" rel="noopener">Síguenos en Instagram</a>
+    <a class="ig" href="https://wa.me/573112273438" target="_blank" rel="noopener">Pedir por WhatsApp</a>
   </header>
   <div class="pages">
     <img src="pag/p-1.jpg" alt="Portada: Cacao de origen colombiano, logo de Artesano">
@@ -37,8 +45,10 @@ body{margin:0}
     <img src="pag/p-7.jpg" alt="Contacto: +57 311 227 3438, +57 313 545 6943, @artesano_cacao, @pfincala" loading="lazy">
   </div>
   <footer>
-    Pedidos por WhatsApp: <strong>+57 311 227 3438</strong> · <strong>+57 313 545 6943</strong><br>
-    Instagram: <strong>@artesano_cacao</strong> · <strong>@pfincala</strong>
+    Pedidos por WhatsApp: <a class="txt" href="https://wa.me/573112273438" target="_blank" rel="noopener">+57 311 227 3438</a> · <a class="txt" href="https://wa.me/573135456943" target="_blank" rel="noopener">+57 313 545 6943</a><br>
+    Instagram: <a class="txt" href="https://www.instagram.com/artesano_cacao/" target="_blank" rel="noopener">@artesano_cacao</a> · <a class="txt" href="https://www.instagram.com/pfincala/" target="_blank" rel="noopener">@pfincala</a><br>
+    <a class="ig" href="https://www.instagram.com/artesano_cacao/" target="_blank" rel="noopener">Ir a @artesano_cacao</a>
+    <a class="ig" href="https://www.instagram.com/pfincala/" target="_blank" rel="noopener">Finca La Primavera · @pfincala</a>
   </footer>
 </div>
 
